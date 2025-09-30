@@ -34,6 +34,10 @@ jobs: #이 안에 있는걸 전부 했을때 이 실행파일이 끝남
       - name: Run Black
         run: poetry run black . --check
 
+      - name: Install dependencies
+        run: poetry install --no-root --with=dev
+
+
   test: #전체 테스트 실행
     runs-on: ubuntu-22.04
     steps:
@@ -60,3 +64,6 @@ jobs: #이 안에 있는걸 전부 했을때 이 실행파일이 끝남
         run: |
           poetry run coverage run -m pytest .
           poetry run coverage report -m
+
+      - name: Install dependencies
+        run: poetry install --no-root --all-extras

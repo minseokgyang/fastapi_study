@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78dabf9f-8502-477f-8ee5-18ef2b4bd350" name="변경" comment="test검사">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
-    </list>
+    <list default="true" id="78dabf9f-8502-477f-8ee5-18ef2b4bd350" name="변경" comment="Introduce CI" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +83,7 @@
       <workItem from="1759111153201" duration="9290000" />
       <workItem from="1759195013510" duration="4666000" />
       <workItem from="1759200348773" duration="6818000" />
-      <workItem from="1759210761304" duration="3062000" />
+      <workItem from="1759210761304" duration="3465000" />
     </task>
     <task id="LOCAL-00001" summary="Inital commit">
       <option name="closed" value="true" />
@@ -111,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759213723269</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Introduce CI">
+      <option name="closed" value="true" />
+      <created>1759213905808</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1759213905808</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,7 +127,8 @@
     <MESSAGE value="Inital commit" />
     <MESSAGE value="Install mypy" />
     <MESSAGE value="test검사" />
-    <option name="LAST_COMMIT_MESSAGE" value="test검사" />
+    <MESSAGE value="Introduce CI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Introduce CI" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FastAPIProject$FastAPIProject.coverage" NAME="FastAPIProject 커버리지 결과" MODIFIED="1759198968004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
