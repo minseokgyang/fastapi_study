@@ -1,0 +1,62 @@
+name : CI
+
+on:
+  push: #push를 실행할때 아래 코드가 실행이됨.
+
+jobs: #이 안에 있는걸 전부 했을때 이 실행파일이 끝남
+  static-analysis:
+    runs-on: ubuntu-22.04 #실제 프로덕션에서는 모든 버전을 고정하는것이 좋음.
+    steps:
+      - name: Check out the codes
+        uses: actions/checkout@v2
+
+      - name: Setup python environment
+        id: setup-python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.13"
+
+      - name: Install Poetry
+        run: |
+          curl -sSL https://install.python-poetry.org | python3 - --version 1.8.5
+
+      - name: Register poetry bin
+        run: echo "${HOME}/.poetry/bin" >> $GITHUB_PATH
+
+      - name: Install dependencies
+        run : poetry install --no-root
+
+      - name: Run Ruff
+        run : |
+          poetry run ruff check --select I
+          poetry run ruff check 
+
+      - name: Run Black
+        run: poetry run black . --check
+
+  test: #전체 테스트 실행
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Check out the codes
+        uses: actions/checkout@v2
+
+      - name: Setup python environment
+        id: setup-python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.13"
+
+      - name: Install Poetry
+        run: |
+          curl -sSL https://install.python-poetry.org | python3 - --version 1.8.5
+
+      - name: Register Poetry bin
+        run: echo "${HOME}/.poetry/bin" >> $GITHUB_PATH
+
+      - name: Install dependencies
+        run: poetry install --no-root
+
+      - name: Run tests
+        run: |
+          poetry run coverage run -m pytest .
+          poetry run coverage report -m
