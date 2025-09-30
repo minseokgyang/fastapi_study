@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78dabf9f-8502-477f-8ee5-18ef2b4bd350" name="변경" comment="Introduce CI4" />
+    <list default="true" id="78dabf9f-8502-477f-8ee5-18ef2b4bd350" name="변경" comment="Introduce CI6" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +83,7 @@
       <workItem from="1759111153201" duration="9290000" />
       <workItem from="1759195013510" duration="4666000" />
       <workItem from="1759200348773" duration="6818000" />
-      <workItem from="1759210761304" duration="4082000" />
+      <workItem from="1759210761304" duration="4433000" />
     </task>
     <task id="LOCAL-00001" summary="Inital commit">
       <option name="closed" value="true" />
@@ -141,7 +141,23 @@
       <option name="project" value="LOCAL" />
       <updated>1759214742573</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Introduce CI5">
+      <option name="closed" value="true" />
+      <created>1759215002404</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1759215002404</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Introduce CI6">
+      <option name="closed" value="true" />
+      <created>1759215150278</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1759215150278</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +171,9 @@
     <MESSAGE value="Introduce CI2" />
     <MESSAGE value="Introduce CI3" />
     <MESSAGE value="Introduce CI4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Introduce CI4" />
+    <MESSAGE value="Introduce CI5" />
+    <MESSAGE value="Introduce CI6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Introduce CI6" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FastAPIProject$FastAPIProject.coverage" NAME="FastAPIProject 커버리지 결과" MODIFIED="1759198968004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
