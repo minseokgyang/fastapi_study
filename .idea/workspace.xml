@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78dabf9f-8502-477f-8ee5-18ef2b4bd350" name="변경" comment="Introduce CI7">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="78dabf9f-8502-477f-8ee5-18ef2b4bd350" name="변경" comment="Introduce CI9" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +83,7 @@
       <workItem from="1759111153201" duration="9290000" />
       <workItem from="1759195013510" duration="4666000" />
       <workItem from="1759200348773" duration="6818000" />
-      <workItem from="1759210761304" duration="5446000" />
+      <workItem from="1759210761304" duration="5882000" />
     </task>
     <task id="LOCAL-00001" summary="Inital commit">
       <option name="closed" value="true" />
@@ -168,7 +165,23 @@
       <option name="project" value="LOCAL" />
       <updated>1759215233304</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Introduce CI8">
+      <option name="closed" value="true" />
+      <created>1759216263584</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1759216263584</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Introduce CI9">
+      <option name="closed" value="true" />
+      <created>1759216406777</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1759216406777</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +198,9 @@
     <MESSAGE value="Introduce CI5" />
     <MESSAGE value="Introduce CI6" />
     <MESSAGE value="Introduce CI7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Introduce CI7" />
+    <MESSAGE value="Introduce CI8" />
+    <MESSAGE value="Introduce CI9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Introduce CI9" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FastAPIProject$FastAPIProject.coverage" NAME="FastAPIProject 커버리지 결과" MODIFIED="1759198968004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
