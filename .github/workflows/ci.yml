@@ -24,7 +24,7 @@ jobs: #이 안에 있는걸 전부 했을때 이 실행파일이 끝남
         run: echo "${HOME}/.poetry/bin" >> $GITHUB_PATH
 
       - name: Install dependencies
-        run: poetry install --no-root --with dev --no-interaction --no-ansi --without lock
+        run: poetry install --no-root --with dev --no-interaction --no-ansi
 
       - name: Run Ruff
         run : |
