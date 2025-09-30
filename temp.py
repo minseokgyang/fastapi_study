@@ -1,1 +1,6 @@
-未来が確かなのにそばに長くいない人でも大丈夫ってことだよね？
+# def add(a:int, b:int)->int:
+#     return a+b
+#
+# def mul(a:int, b:int)->int:
+#     return a*b
+#
