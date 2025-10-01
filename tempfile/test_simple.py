@@ -58,6 +58,7 @@
 #
 #
 
+#test_simple.py에 적은 테스트 코드
 
 def test_simple() -> None:
     print("abc")
