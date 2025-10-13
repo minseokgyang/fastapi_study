@@ -9,6 +9,12 @@ readme = "README.md"
 python = "^3.13"
 fastapi = "^0.117.1"
 uvicorn = "^0.37.0"
+sqids = "0.5.1"
+cryptography = "44.0.0"
+aerich = "0.8.1"
+tomlkit = "0.13.2"
+pydantic-settings = "2.7.1"
+app = "^0.0.1"
 
 
 [build-system]
@@ -25,11 +31,6 @@ dev = [
     "pytest-asyncio (==0.25.0)"
 ]
 
-[tool.poetry.dev-dependencies]
-ruff = "^0.6.3"
-black = "^24.0"
-pytest = "^8.0"
-coverage = "^7.6"
 
 [tool.black]
 line-length = 120
